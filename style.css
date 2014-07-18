@@ -1,0 +1,54 @@
+/* CSS Document */
+html {
+	padding: 0px;
+	margin: 0px;
+	
+}
+body {
+	background-color: #ebebeb;
+	padding: 0px;
+	margin: 0px;
+}
+div#top-menu {
+	width: 1324px;
+	height: 40px;
+	background-color: #333;
+	font-family:Tahoma, Geneva, sans-serif;
+	color: #ebebeb;
+	font-size:16px;
+	margin-left: 15%;
+}
+div#top-menu > div.text {
+	 padding-top: 9px;
+	 padding-left: 10px;
+	 
+}
+div#top-menu > div.login-button {
+	
+	color: #333;
+	background-color: #39F;
+	
+	margin-left: 90%;
+	margin-top: -23px;
+	padding: 5px;
+	border-radius: 5px 0px 0px 5px;
+	
+	
+}
+
+div#menu-left {
+	width: 190px;
+	margin-left: 15%;
+	min-height: 300px;	
+	background-color: #dbdbdb;
+	border-right: solid 1px #aaa;
+}
+div#content {
+	width: 1133px;
+	min-height: 300px;
+	background-color: #cbcbcb;
+	left: 25%;
+	margin-left: 0px;
+	top: 40px;
+	position: absolute;
+}
