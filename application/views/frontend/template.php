@@ -4,8 +4,12 @@
 	<title>
 	<?php echo $title;?>
 	</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link href="../../style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $style;?>" />
+    <meta charset="<?php echo $meta_charset;?>" />
+    <meta name="description" content="<?php echo $meta_description;?>" />
+    <meta name="keywords" content="<?php echo $meta_keywords;?>" />
+    <meta name="author" content="<?php echo $meta_author;?>" />
+    
 </head>
 <body>
 <div id="top-menu">
