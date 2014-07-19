@@ -36,3 +36,12 @@ Icon
 .Trashes
 
 .project
+*.lock
+*.log
+*.2
+*.xml
+*.index
+application/cache/*
+application/logs/*
+.metadata/*
+*.bak
